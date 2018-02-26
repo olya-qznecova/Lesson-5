@@ -1,0 +1,44 @@
+.container {
+    margin-left: 500px;
+    margin-top: 100px;
+    width: 800px;
+    border: 3px inset powderblue;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+button {
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-weight: 700;
+    background-color: cornsilk;
+    color: darkslategray;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: darkslategray;
+    color: cornsilk;
+}
+button:focus {
+    outline: none;
+}
+input {
+    width: 300px;
+    box-sizing: border-box;
+    padding: 5px 50px 5px 15px;
+    box-shadow: 1px 2px 5px cadetblue;
+    }
+
+input:focus {
+    outline: none;
+}
+
+.comments p {
+    font-size: 18px;
+}
